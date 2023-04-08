@@ -12,7 +12,7 @@
     @media (min-width: $desktop_sm) {
         padding: 20px $padding-horizontal-sm;
     }
-    @media (min-width: $desktop_sm) and (mas-width: $desktop_md) { 
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) { 
         padding: 20px $padding-horizontal-md
     }
 
@@ -30,6 +30,7 @@
           font-weight: 600;
           text-decoration: none;
           transition: .2s ease;
+          font-family: sans-serif;
           &:hover {
             color: $dark-grey;
           }

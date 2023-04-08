@@ -7,6 +7,10 @@ body{
   font-family: "Italiana", serif;
 }
 
+h3 {
+  font-family: sans-serif;
+}
+
 #root > main.container {
   display: flex;
   flex-direction: column;
