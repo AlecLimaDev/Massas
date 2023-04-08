@@ -1,0 +1,119 @@
+[
+    {
+      "titulo" : "Macarrão mediterrâneo",
+      "descricao" : "Macarrão esparguete com frutos-do-mar e especiarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+      "photo" : "/assets/pratos/macarrao_mediterraneo.png",
+      "tamanho" : 400,
+      "servindo" : 2,
+      "preco" : 73.0,
+      "id" : 1 ,
+      "categoria" : {
+        "id" : 1 ,
+        "label" : "Massas"
+      }
+    },
+    {
+      "titulo" : "Macarrão da casa",
+      "descricao" : " Macarrão com frutos-do-mar e especiarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar! ",
+      "photo" : "/assets/pratos/macarrao_da_casa.png",
+      "tamanho" : 400,
+      "servindo" : 2,
+      "preco" : 54.0,
+      "id" : 2,
+      "categoria" : {
+        "id" : 1,
+        "label" : "Massas"
+      }
+    },
+    {
+      "titulo" : " Macarrão com Pimenta",
+      "descricao" : " Macarrão fetuccine com molho de pimenta e especiarias.",
+      "photo" : "/assets/pratos/macarrao_com_chilli.png",
+      "tamanho" : 350,
+      "servindo" : 1,
+      "preco" : 58.0,
+      "id" : 3 ,
+      "categoria" : {
+        "id" : 1 ,
+        "label" : "Massas"
+      }
+    },
+    {
+      "titulo" : "Salada da casa com salmão grelhado",
+      "descricao" : "Salada da casa (alface, rúcula, cenoura) com salmão.",
+      "photo" : "/assets/pratos/salada_da_casa.png ",
+      "tamanho" : 450,
+      "servindo" : 1,
+      "preco" : 42.0,
+      "id" : 4 ,
+      "categoria" : {
+        "id" : 2 ,
+        "label" : "Carnes"
+      }
+    },
+    {
+      "titulo" : "Bife com batatas" ,
+      "descricao" : "Bife de boi (150g) na chapa, com batatas fritas. Acompanha arroz e molhos." ,
+      "photo" : "/assets/pratos/bife_com_batatas.png " ,
+      "tamanho" : 550,
+      "servindo" : 2,
+      "preco" : 86.0,
+      "id" : 5 ,
+      "categoria" : {
+        "id" : 2 ,
+        "label" : "Carnes"
+      }
+    },
+    {
+      "titulo" : " Picanha picada com legumes e massa " ,
+      "descricao" : " 400g de picanha picada, com legumes grelhados e massa escolhida pelo cliente. " ,
+      "photo" : "/assets/pratos/picanha_picada.png " ,
+      "tamanho" : 850,
+      "servindo" : 3,
+      "preco" : 123.0,
+      "id" : 6,
+      "categoria" : {
+        "id" : 3,
+        "label" : "Combos"
+      }
+    },
+    {
+      "titulo" : "Lasanha vegana (carne de soja) " ,
+      "descricao" : "Lasanha 100% vegana feita com carne de soja e massa especial." ,
+      "photo" : "/assets/pratos/lasagna_vegana.png " ,
+      "tamanho" : 350,
+      "servindo" : 1,
+      "preco" : 45.0,
+      "id" : 7,
+      "categoria" : {
+        "id" : 4,
+        "label" : "Veganos"
+      }
+    },
+    {
+      "titulo" : "Salada especial" ,
+      "descricao" : "Salada com abacate, manga, alface, grão de bico e muito mais." ,
+      "photo" : "/assets/pratos/salada_especial.png",
+      "tamanho" : 350,
+      "servindo" : 1,
+      "preco" : 37.0,
+      "id" : 8,
+      "categoria" : {
+        "id" : 4,
+        "label" : "Veganos"
+      }
+    },
+    {
+      "titulo" : "Almôndegas" ,
+      "descricao" : "Porção de almôndegas com sour cream, cebola e tempêros. Acompanha arroz ou massa.",
+      "photo" : "/assets/pratos/almondegas.png",
+      "tamanho" : 740,
+      "servindo" : 3,
+      "preco" : 120.0,
+      "id" : 9 ,
+      "categoria" : {
+        "id" : 3 ,
+        "label" : "Combos"
+      }
+    }
+]

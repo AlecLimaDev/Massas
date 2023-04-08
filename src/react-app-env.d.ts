@@ -1,0 +1,1 @@
+/// <tipos de referência="react-scripts" />
