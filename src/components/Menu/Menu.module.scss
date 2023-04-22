@@ -1,19 +1,23 @@
 @import "../../styles/variaveis";
 @import "../../styles/breakpoints";
 
+
 .menu {
+  // width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 20px $padding-horizontal;
+    // justify-content: space-between;
+    // padding: 0 20px $padding-horizontal;
     @media (max-width: $desktop_xsm) {
-        padding: 20px $padding-horizontal-mobile;
+        // padding: 0 10px $padding-horizontal-mobile;
+        font-size: 5px;
     }
 
     @media (min-width: $desktop_sm) {
-        padding: 20px $padding-horizontal-sm;
+        padding: 10px $padding-horizontal-sm;
+        font-size: 10px;
     }
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) { 
-        padding: 20px $padding-horizontal-md
+        padding: 20px $padding-horizontal-md;
     }
 
     &__list {
@@ -22,7 +26,7 @@
       }
       &__link {
         list-style-type: none;
-        padding: 0 40px;
+        padding: 0 20px;
         a {
           color: $dark;
           cursor: pointer;
