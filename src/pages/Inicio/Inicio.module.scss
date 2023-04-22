@@ -12,7 +12,7 @@
 
 .recomendado {
   &__imagem {
-    width: 300px;
+    width: 200px;
     margin-bottom: 10px;
 
     img {
@@ -31,7 +31,7 @@
     font-weight: bold;
     padding: 10px 0;
     transition: .2s ease;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     &:hover {
       background-color: $red-dark;
