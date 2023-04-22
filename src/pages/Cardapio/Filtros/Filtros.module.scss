@@ -5,6 +5,7 @@
   gap: 24px;
   flex-wrap: wrap;
   margin: 20px 0;
+  font-family: sans-serif;
   &__filtro {
     align-items: center;
     background-color: $grey;
@@ -16,6 +17,7 @@
     height: 40px;
     justify-content: center;
     width: 150px;
+    font-family: sans-serif;
     &--ativo {
       background-color: $blue;
       color: white;

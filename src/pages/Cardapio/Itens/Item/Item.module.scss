@@ -15,7 +15,7 @@
   }
 
   &__imagem {
-    min-width: 240px;
+    min-width: 100%;
     @media (max-width: $desktop_xsm) {
       width: 100%;
     }
