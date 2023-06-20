@@ -1,6 +1,11 @@
 @import "../../styles/variaveis";
 @import "../../styles/breakpoints";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .menu {
   // width: 100%;

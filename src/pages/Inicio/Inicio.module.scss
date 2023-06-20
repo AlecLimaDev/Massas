@@ -1,16 +1,22 @@
 @import '../../styles/variaveis';
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .recomendados {
   border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
 }
 
 
-
 .recomendado {
+
   &__imagem {
     width: 200px;
     margin-bottom: 10px;
@@ -68,3 +74,5 @@
     right: 0;
   }
 }
+
+

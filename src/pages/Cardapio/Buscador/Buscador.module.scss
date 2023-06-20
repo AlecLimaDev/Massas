@@ -1,6 +1,12 @@
 @import "../../../styles/variaveis";
 @import "../../../styles/breakpoints";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .buscador {
   align-items: center;
   background-color: $grey;
@@ -12,7 +18,7 @@
   padding: 0 15px;
   width: 400px;
   @media (max-width: $mobile) {
-    width: 88%;
+    width: 100%;
   }
   input {
     background-color: $grey;
